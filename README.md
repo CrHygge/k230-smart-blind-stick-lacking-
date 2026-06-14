@@ -40,3 +40,39 @@ plaintext
 识别类别：行人、车辆、井盖、台阶、栏杆、垃圾桶、占道车辆等 12 类常见出行风险
 模型优化：模型体积压缩至 6.2MB，K230 单帧推理速度＞15FPS
 泛化能力：在不同光照、天气、路况条件下保持稳定的识别效果
+环境要求
+硬件：K230 开发板、树莓派 5（4GB+）、天问 51 开发板、GC2093 摄像头、MPU6050、北斗 GPS 模块
+软件：Python 3.9+、PyTorch 2.0+、OpenCV 4.5+、K230 SDK、天问 51 编译环境
+🤝 参与贡献
+我们欢迎所有形式的贡献，包括但不限于：
+🐛 提交 Bug 报告与功能建议
+💻 提交 Pull Request 修复问题或添加新功能
+📖 完善文档与教程
+🧪 测试与优化模型性能
+🌐 翻译多语言版本
+📄 开源协议
+本项目基于 MIT License 开源，详见 LICENSE 文件。
+plaintext
+MIT License
+
+Copyright (c) 2026 智眼启明开发团队
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+💬 联系我们
+GitHub Issues：https://github.com/0Vulpan/zhiyan-qiming/issues
